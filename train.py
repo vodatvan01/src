@@ -9,9 +9,6 @@ from scipy.ndimage import grey_dilation, grey_erosion
 
 from models.modnet import MODNet
 from dataloader import * 
-from loss import *
-
-
 
 class GaussianBlurLayer(nn.Module):
     """ Add Gaussian Blur to a 4D tensors
