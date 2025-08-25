@@ -1,4 +1,10 @@
+# Kiến Trúc Hệ Thống AI (RAG Application)
+
+Dưới đây là sơ đồ flowchart minh họa kiến trúc hệ thống sử dụng Mermaid.
+
+```mermaid
 flowchart LR
+
   %% ===== FRONTEND =====
   subgraph FE[Frontend (React 18)]
     U[Người dùng]
@@ -55,3 +61,4 @@ flowchart LR
 
   %% Response
   N5 --> LG --> GW --> R18 --> U
+```
